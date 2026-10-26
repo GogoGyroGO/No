@@ -1,0 +1,9 @@
+{
+ "schemaVersion": 1,
+ "id": "gyrospin_tests",
+ "version": "1.0.0",
+ "name": "Spin Integration Tests",
+ "environment": "server",
+ "entrypoints": { "fabric-gametest": ["dev.gyro.spin.SpinGameTests"] },
+ "depends": { "gyrospin": "*", "fabric-gametest-api-v1": "*" }
+}

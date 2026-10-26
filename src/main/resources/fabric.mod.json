@@ -1,0 +1,12 @@
+{
+ "schemaVersion": 1,
+ "id": "gyrospin",
+ "version": "${version}",
+ "name": "Gyro's Spin",
+ "description": "Learn the Spin from Gyro Zeppeli, master steel balls, and discover a secret.",
+ "authors": ["GogoGyroGO"],
+ "license": "MIT",
+ "environment": "*",
+ "entrypoints": { "main": ["dev.gyro.spin.SpinMod"], "client": ["dev.gyro.spin.SpinClient"] },
+ "depends": { "fabricloader": ">=0.15.11", "minecraft": "~1.20.1", "java": ">=17", "fabric-api": "*" }
+}
